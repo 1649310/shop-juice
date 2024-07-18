@@ -5,6 +5,7 @@ body {
     font-size: 20px;
     background: #f9f9f9;
     font-weight: 400;
+    
 }
 
 h1,
@@ -192,9 +193,13 @@ ul {
     font-size: 20px;
 
 }
-.footer-list, .footer-adress, .footer-contact {
+.footer-colum, .footer-list {
     flex-direction: column;
     display: flex;
     gap: 20px;
     max-width: 250px;
+}
+.footer-adress {
+    font-style: normal;
+    line-height: 1.8;
 }
